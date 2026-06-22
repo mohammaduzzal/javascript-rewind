@@ -54,4 +54,21 @@ console.log(typeof((diff + diff1).toFixed(1))); //string //toFixed use means res
 // Think of isNaN() as asking:
 // "Can JavaScript turn this into a number?"
 
-        
+
+
+// What is null in JavaScript?
+// null is a special value that means:
+// "Nothing is here on purpose."
+// "This variable is intentionally empty."
+
+let user = null;
+console.log(user); // null
+// "The variable user exists, but currently it has no value."
+
+// why we use if-else condition -
+// control behavior
+// determine whether or not pieces of code can run
+
+
+
+
