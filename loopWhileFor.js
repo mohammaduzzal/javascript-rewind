@@ -80,7 +80,33 @@ do{
         if(f % 2 == 0){
             continue;
         }
-        console.log(f); 
+        // console.log(f); 
         
     }
+
+    let num = 1;
+    let sum = 0;
+    while (num <= 10) {
+        sum = sum + num;
+        // console.log("sum :", sum);
+        num ++;
+        // console.log(num);
+    }
+
+
+    // even
+
+        for(let i = 0 ; i <=20; i=i+2){
+            console.log(i);
+        }
+
+        // odd
+
+          for(let i = 1 ; i <=20; i=i+2){
+            // console.log("odd : ", i);
+        }
+
+        for (let i = 10 ; i >= 0 ; i--){
+            console.log(i);
+        }
 
